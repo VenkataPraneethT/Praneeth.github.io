@@ -1,0 +1,17 @@
+<div class="container">
+  <h1>
+    Welcome to {{title}}
+  </h1>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <ul class="nav navbar-nav"  >
+        <li [ngClass]="{'active': link.isActive}" (click)="changeClass(link)" *ngFor="let link of navLinks">
+          <a routerLink="{{link.routerLink}}">{{link.item}} </a>
+        </li>
+        <!-- <li class="active nav-links" ><a [routerLink]="['/Products']">Products</a></li>
+        <li class="nav-links"><a [routerLink]="['/Cart']">Cart</a></li> -->
+        <li class="class-count">Cart Count: {{cartItemsCount}}<li>
+      </ul>
+    </div>
+  </nav>
+</div>

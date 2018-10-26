@@ -1,0 +1,36 @@
+<!-- <p>
+  products-components works!
+</p> -->
+<div class="container">
+  <h1>Products</h1>
+  <div class="search-results product-items" infinite-scroll
+   [infiniteScrollDistance]="scrollDistance"
+   [infiniteScrollUpDistance]="scrollUpDistance"
+   [infiniteScrollThrottle]="throttle"
+   [scrollWindow]="false"
+   (scrolled)="onScrollDown()"
+   (scrolledUp)="onUp()">
+    <table class="table table-bordered table-responsive">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Price</th>
+          <th>Image</th>
+          <th>Add/Remove to Cart</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let product of chunkProducts">
+          <th scope="row">{{product.name}}</th>
+          <td>{{product.price}}</td>
+          <td>{{product.images}}</td>
+          <td>
+            <i class="fa fa-plus-square" aria-hidden="true" (click)="increaseItemCount(product)"></i>
+            {{product.count}}
+            <i class="fa fa-minus-square" aria-hidden="true" (click)="decreaseItemCount(product)"></i>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

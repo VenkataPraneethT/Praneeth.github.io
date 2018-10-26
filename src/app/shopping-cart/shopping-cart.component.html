@@ -1,0 +1,28 @@
+<!-- <p>
+  shopping-cart works!
+</p> -->
+<div class="container">
+  <h1>Cart Items</h1>
+  <table class="table table-bordered">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Price</th>
+      <th>Image</th>
+      <th>Add/Remove to Cart</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let cart of cartItems">
+      <td>{{cart.name}}</td>
+      <td >{{ cart.price}}</td>
+      <td>{{cart.images}}</td>
+      <td>
+        <i class="fa fa-plus-square" aria-hidden="true" (click)="increaseItemCount(cart)"></i>
+        {{cart.count}}
+        <i class="fa fa-minus-square" aria-hidden="true" (click)="decreaseItemCount(cart)"></i>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</div>

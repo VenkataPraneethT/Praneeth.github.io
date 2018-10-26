@@ -1,0 +1,158 @@
+[
+  {
+    "id":1,
+    "name" :"Asus Zenfone Max",
+    "price": 12600,
+    "images" :"image1"
+  },
+  {
+    "id":2,
+    "name" :"Asus Zenfone Max 1",
+    "price": 14600,
+    "images" :"image1"
+  },
+  {
+    "id":3,
+    "name" :"Xiomi Redmi 1",
+    "price": 13600,
+    "images" :"image1"
+  },
+  {
+    "id":4,
+    "name" :"Xiomi Redmi 2",
+    "price": 8600,
+    "images" :"image1"
+  },
+  {
+    "id":5,
+    "name" :"Xiomi Redmi 3",
+    "price": 10600,
+    "images" :"image1"
+  },
+  {
+    "id":6,
+    "name" :"Xiomi Redmi 3.2",
+    "price": 10800,
+    "images" :"image1"
+  },
+  {
+    "id":7,
+    "name" :"Xiomi Redmi 4",
+    "price": 14800,
+    "images" :"image1"
+  },
+  {
+    "id":8,
+    "name" :"SONY HD Smart TV 43inch",
+    "price": 50800,
+    "images" :"image1"
+  },
+  {
+    "id":9,
+    "name" :"SONY HD Smart TV 49inch",
+    "price": 70800,
+    "images" :"image1"
+  },
+  {
+    "id":10,
+    "name" :"SONY HD Smart TV 55inch",
+    "price": 88800,
+    "images" :"image1"
+  },
+  {
+    "id":11,
+    "name" :"SONY HD Smart TV 65inch",
+    "price": 100800,
+    "images" :"image1"
+  },
+  {
+    "id":12,
+    "name" :"SONY HD Smart TV 75inch",
+    "price": 290800,
+    "images" :"image1"
+  },
+  {
+    "id":13,
+    "name" :"LG HD Smart TV 75inch",
+    "price": 290800,
+    "images" :"image1"
+  },
+  {
+    "id":14,
+    "name" :"LG HD Smart TV 65inch",
+    "price": 190800,
+    "images" :"image1"
+  },
+  {
+    "id":15,
+    "name" :"LG HD Smart TV 55inch",
+    "price": 90800,
+    "images" :"image1"
+  },
+  {
+    "id":16,
+    "name" :"LG HD Smart TV 55inch",
+    "price": 70800,
+    "images" :"image1"
+  },
+  {
+    "id":17,
+    "name" :"LG HD Smart TV 50inch",
+    "price": 68800,
+    "images" :"image1"
+  },
+  {
+    "id":18,
+    "name" :"LG HD Smart TV 43inch",
+    "price": 40800,
+    "images" :"image1"
+  },
+  {
+    "id":19,
+    "name" :"LG HD Smart TV 32inch",
+    "price": 20800,
+    "images" :"image1"
+  },
+  {
+    "id":20,
+    "name" :"Panasonic HD Smart TV 32inch",
+    "price": 22800,
+    "images" :"image1"
+  },
+  {
+    "id":21,
+    "name" :"Iphone 2",
+    "price": 40800,
+    "images" :"image1"
+  },
+  {
+    "id":22,
+    "name" :"Iphone 3",
+    "price": 42800,
+    "images" :"image1"
+  },
+  {
+    "id":23,
+    "name" :"Iphone 4",
+    "price": 50800,
+    "images" :"image1"
+  },
+  {
+    "id":24,
+    "name" :"Iphone 5",
+    "price": 60800,
+    "images" :"image1"
+  },
+  {
+    "id":25,
+    "name" :"Iphone 6",
+    "price": 89800,
+    "images" :"image1"
+  },
+  {
+    "id":26,
+    "name" :"Iphone 7",
+    "price": 109800,
+    "images" :"image1"
+  }
+]
